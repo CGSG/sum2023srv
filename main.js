@@ -11,7 +11,7 @@ function log(msg) {
 }
 
 export function myFunc() {
-  let socket = new WebSocket("wss://cgsg.onrender.com:8082");
+  let socket = new WebSocket("wss://cgsg.onrender.com");
   log("my start");
   socket.onopen = function (e) {
     log("[open] Connection established");
