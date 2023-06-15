@@ -8,7 +8,7 @@ app.use(morgan("combined"));
 
 // Server
 const http = require("http");
-const host = "localhost";
+const host = "cgsg.onrender.com";
 const port = 8082;
 //const fs = require("fs").promises;
 
