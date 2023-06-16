@@ -9,12 +9,13 @@ app.use(morgan("combined"));
 // Server
 const http = require("http");
 const host = "cgsg.onrender.com";
-const port = 10000;
+const port = process.env.PORT || 3001; // 10000;
 //const fs = require("fs").promises;
 
 const server = http.createServer(app);
-server.listen(port, host, () => {
-  console.log(`Server is running on http://${host}:${port}`);
+//server.listen(port, host, () => {
+server.listen(port, () => {
+  console.log(`Server is running on http://${port}`); // ${host}:${port}
 });
 
 // Web socket

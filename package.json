@@ -1,0 +1,21 @@
+{
+  "name": "first-try-express-server",
+  "version": "1.0.0",
+  "description": "Try to use websockek",
+  "main": "index.js",
+  "repository": "https://github.com/CGSG/sum2023srv",
+  "author": "VG4",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+    "ws": "^8.13.0"
+    "morgan": "^1.10.0",
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
