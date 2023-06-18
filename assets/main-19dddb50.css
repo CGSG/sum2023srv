@@ -1,0 +1,99 @@
+#log
+{
+  min-width: 300px;
+  min-height: 102px;
+  width: 300px;
+  height: 102px;
+  overflow: scroll;
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  position: relative;
+  float: right;
+}
+.box
+{
+  border: 1px Red Solid;
+  border-radius: 18px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #CCEEFF;
+  min-width: 8em;
+  min-height: 1em;
+}
+#msg
+{
+  width: 18em;
+}
+.msg
+{
+  border: 1px blue Solid;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #EEEEFF;
+  min-width: 8em;
+  min-height: 1em;
+  width: 98%;
+}      
+#MessageBoard
+{
+  min-width: 50%;
+}
+#Messages
+{
+  width: 90%;
+  /*
+  margin: 5px;
+  */
+  border: 0px Blue Solid;
+  padding: 5px;
+  min-height: 2em;
+}
+.msgDate
+{
+  border: 2px blue dotted;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px; 
+  margin-right: 29px;
+  white-space: nowrap;
+  /*display: block;*/
+  vertical-align: top;
+  background-color: #EEEEFF;
+  min-width: 18em;
+  min-height: 1em;
+  width: 47%;
+  overflow: hidden;
+}
+.msgUser
+{
+  color: Black;
+} 
+.msgMsg
+{
+  color: Blcack;
+  padding: 18px;
+  border: 1px Black Solid;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.30);
+  width: 90%;
+}
+#alive
+{      
+  margin: 8px;
+  border: 1px Black Solid;
+  min-height: 3em;
+}
+#userGrava
+{
+  vertical-align: top;
+}
+table#MainTab tr td
+{
+  vertical-align: top;
+}

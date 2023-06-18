@@ -1,17 +1,1 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>CGSG Srv1</title>
-  </head>
-  <body>
-    <img src="chat_logo.png" style="vertical-align: top;"/>
-    <textarea id="msg" cols="102" rows="8"></textarea>
-    <input type="button" id="send" value="Send" />
-    <textarea id="log" cols="102" rows="47"></textarea>
-    
-    <script type="module" src="main.js">
-      //import {myFunc} from "./index.min.js";
-      //myFunc();
-    </script>
-  </body>
-</html>
+<!doctype html><html><head><title>CGSG Srv1</title><link href="assets/main-19dddb50.css" rel="stylesheet"><link href="assets/font-awesome.min-799aeb25.css" rel="stylesheet"></head><body><table id="MainTab" width="100%"><tbody><tr><td><input type="button" id="getAll" value="Переполучить все"><p></p><div id="MessageBoard" class="box">Message board:<div id="Messages"></div></div></td><td width="30%"><div id="LoginBox" class="box"><form method="post"><table><tbody><tr><td rowspan="3"><i style="padding:10px;color:gray;font-size:47px" class="fa fa-user fa-3x" aria-hidden="true"></i></td><td>Login:</td><td><input width="300px" id="login"></td></tr><tr><td>Password:</td><td><input type="password" width="300px" id="password"></td></tr><tr><td colspan="2"><input type="button" id="dologin" value="Login"></td></tr></tbody></table></form></div><div id="LogoutBox" class="box" style="display:none"><form method="post"><table><tbody><tr><td rowspan="5" id="userGrava"><i style="padding:10px;color:gray;font-size:47px" class="fa fa-user" aria-hidden="true"></i></td><td>User:</td><td><input disabled="" width="300px" id="user"></td></tr><tr><td>NSF:</td><td><input disabled="" width="300px" id="nsf"></td></tr><tr><td>E-mail:</td><td><input disabled="" id="email"></td></tr><tr><td colspan="2"><input type="button" id="dologout" value="Logout"></td></tr></tbody></table></form></div><div id="NewMessageBox" class="box"><table><tbody><tr><td rowspan="3" style="vertical-align:top"><img src="assets/chat_logo-7478e9fb.png"></td></tr><tr><td><textarea id="msg" cols="100%" rows="2" placeholder="введите сообщение"></textarea></td></tr><tr><td><input type="button" id="send" value="Послать"></td></tr></tbody></table>Online:<br><div id="alive"></div></div><div class="box">Console<br><textarea id="log" cols="47" rows="8"></textarea></div></td></tr></tbody></table><script type="module" src="./main.js"></script></body></html>
