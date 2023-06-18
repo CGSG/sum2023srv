@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build": "npm install sanitize-html && npm run build",
     "start": "node index.js"
   },
   "dependencies": {
