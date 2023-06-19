@@ -69,6 +69,8 @@
   min-height: 1em;
   width: 47%;
   overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
 }
 .msgUser
 {
@@ -82,6 +84,7 @@
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.30);
   width: 90%;
+  white-space: inherit;
 }
 #alive
 {      
@@ -96,4 +99,20 @@
 table#MainTab tr td
 {
   vertical-align: top;
+}
+.number
+{
+  font-size: 0.8em;
+  display: inline;
+  vertical-align: middle;
+  border-radius: 8px;
+  background-color: #8888FF;
+  color: white;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.firstLine
+{
+  white-space: nowrap;
 }
